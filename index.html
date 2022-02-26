@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+<script>
+function add(){
+    var fnum = parseInt(document.getElementById("fnum").value);
+    var snum = parseInt(document.getElementById("snum").value);
+    console.log(fnum)
+    console.log(snum)
+    document.getElementById("ans").innerHTML = fnum+snum
+
+}
+</script>
+</head>
+
+<body>
+   <label for="">Enter First Number : </label>
+   <input id="fnum" type="text">
+   <br>
+   <label for="">Enter Second Number</label>
+   <input id="snum" type="text" name="" id=""><br>
+   <button onclick="add()">Add two Number</button>
+   <p id="ans"></p>
+</body>
+
+</html>

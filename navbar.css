@@ -1,0 +1,41 @@
+
+* {
+    margin: 0px;
+}
+
+
+ul li {
+    display: inline-flex;
+    padding:20px;
+
+}
+
+ul {
+    background-color: brown;
+    padding: px;
+    
+}
+ul li a {
+    color: aliceblue;
+    text-decoration: none;
+
+
+}
+
+ul li a:hover {
+    background-color:blueviolet;
+    
+}
+
+.searchbox {
+    margin: -51px 40px 150px 1600px;
+    padding: 10px;
+
+}
+.searchbox [type=button] {
+    border-radius: 10px;
+}
+
+body {
+    background-image: url(https://th.bing.com/th/id/R.073468f18f1160de2c70b320c051ff7b?rik=gLfwd48MpRTDcw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f1%2f4%2f65743.jpg&ehk=r2EwncORcYIP5DAzWCQC6RIoH%2fuMwkSsX63Tccoumdc%3d&risl=&pid=ImgRaw&r=0);
+}
